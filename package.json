@@ -1,0 +1,32 @@
+{
+  "name": "electorn-bookmarks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./app/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "electron --trace-warnings ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdcaulley/electorn-bookmarks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdcaulley/electorn-bookmarks/issues"
+  },
+  "homepage": "https://github.com/sdcaulley/electorn-bookmarks#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "electron": "^22.0.0"
+  }
+}
